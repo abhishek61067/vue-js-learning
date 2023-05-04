@@ -1,6 +1,6 @@
 <template>
     <div class="mb-4">
-        <p class="text-primary fs-6">Prop passing:</p>
+        <div class="text-primary h2">Prop passing:</div>
 {{ `this prop: ${msg} is coming from some other component` }}
 
 <!-- {{ msg }} -->
