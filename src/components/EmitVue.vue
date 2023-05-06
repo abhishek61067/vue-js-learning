@@ -1,6 +1,6 @@
 <template>
     <div>
-emits: {{ emits}}
+        <div class="h2 text-primary">Emit:</div>
     </div>
 </template>
 
@@ -9,10 +9,7 @@ emits: {{ emits}}
         data(){
             return{
             emits: "testEmitDataOption"
-            }
-
-            
-        
+            }     
         },
         emits:"response",
         created(){

@@ -1,4 +1,7 @@
 <template>
+    <div class="h2 text-primary">
+        Attirbute binding dynamically
+    </div>
     <!-- attribute binding -->
     <div :class="c">
     <!-- Above line is similar to 
